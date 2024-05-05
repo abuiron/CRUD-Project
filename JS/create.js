@@ -7,3 +7,5 @@ myform.addEventListener('submit',async(e)=>{
 
     
 })
+
+//creating progress but not ready 
