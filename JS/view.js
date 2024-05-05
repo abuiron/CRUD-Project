@@ -1,0 +1,1 @@
+console.log("view.js but not fully ready")
