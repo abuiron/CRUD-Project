@@ -47,7 +47,7 @@ function constructTable(data)
 //this is edit button onclick function
 function navigate(id)
 {
-    window.location.href=`./../HTML/view.html?id=${id}`
+    window.location.href=`./HTML/view.html?id=${id}`;
     
 
 }
@@ -59,8 +59,9 @@ async function deleteData(id)
     try{
         let res = await fetch(`${API_URL}/${id}`,{
 
-            //we use delete for it 
-        method:"DELETE"
+    
+             //we use delete for it    
+             method:"DELETE"
     })
     if(res.status===200)
     {
